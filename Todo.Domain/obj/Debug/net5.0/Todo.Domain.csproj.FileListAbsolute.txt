@@ -1,0 +1,12 @@
+C:\Users\jhona\OneDrive\Documentos\projetos\TodoAPPBalta\Todo.Domain\bin\Debug\net5.0\Todo.Domain.deps.json
+C:\Users\jhona\OneDrive\Documentos\projetos\TodoAPPBalta\Todo.Domain\bin\Debug\net5.0\Todo.Domain.dll
+C:\Users\jhona\OneDrive\Documentos\projetos\TodoAPPBalta\Todo.Domain\bin\Debug\net5.0\ref\Todo.Domain.dll
+C:\Users\jhona\OneDrive\Documentos\projetos\TodoAPPBalta\Todo.Domain\bin\Debug\net5.0\Todo.Domain.pdb
+C:\Users\jhona\OneDrive\Documentos\projetos\TodoAPPBalta\Todo.Domain\obj\Debug\net5.0\Todo.Domain.csprojAssemblyReference.cache
+C:\Users\jhona\OneDrive\Documentos\projetos\TodoAPPBalta\Todo.Domain\obj\Debug\net5.0\Todo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhona\OneDrive\Documentos\projetos\TodoAPPBalta\Todo.Domain\obj\Debug\net5.0\Todo.Domain.AssemblyInfoInputs.cache
+C:\Users\jhona\OneDrive\Documentos\projetos\TodoAPPBalta\Todo.Domain\obj\Debug\net5.0\Todo.Domain.AssemblyInfo.cs
+C:\Users\jhona\OneDrive\Documentos\projetos\TodoAPPBalta\Todo.Domain\obj\Debug\net5.0\Todo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jhona\OneDrive\Documentos\projetos\TodoAPPBalta\Todo.Domain\obj\Debug\net5.0\Todo.Domain.dll
+C:\Users\jhona\OneDrive\Documentos\projetos\TodoAPPBalta\Todo.Domain\obj\Debug\net5.0\ref\Todo.Domain.dll
+C:\Users\jhona\OneDrive\Documentos\projetos\TodoAPPBalta\Todo.Domain\obj\Debug\net5.0\Todo.Domain.pdb
