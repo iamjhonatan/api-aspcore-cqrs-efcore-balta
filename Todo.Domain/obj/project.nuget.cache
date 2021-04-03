@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Hzs0nBM28jaXxWyZSSYWwJRJg0mZs+B043npkElqmR+WCXo4CVoVhPr8bB3ximFYuWaNi9ir5OEM3U+nvUfbhA==",
+  "dgSpecHash": "KpzYLqKq02YhOh3djLAtl4QNnzjhlMEnav9MEw04URgIz1vsqtRly+1MAY5j1wYZ0Eq70vk7rc0XeTBS++hgQg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\TodoAPPBalta\\Todo.Domain\\Todo.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jhona\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512"
+  ],
   "logs": []
 }
