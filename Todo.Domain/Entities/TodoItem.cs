@@ -22,7 +22,7 @@ namespace Todo.Domain.Entities
             Done = true;
         }
 
-        public void MarkAUndone()
+        public void MarkAsUndone()
         {
             Done = false;
         }
