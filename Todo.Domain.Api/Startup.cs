@@ -1,15 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
 namespace Todo.Domain.Api
@@ -23,18 +16,23 @@ namespace Todo.Domain.Api
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
 
             services.AddControllers();
+
+            // AddSingleton: quando a aplicação é inicializada, o objeto que foi determinado será instanciado e ficará na memória sempre que a aplicação estiver ativa (pouco usado no .net)
+            // AddScoped: ele faz uma espécie de 'Singleton', só que por requisição. Ou seja, ele coloca o objeto determinado na memória todas vez que for chamado. As próximas vezes que esse objeto for instanciado, ele buscará da memória, não criará um novo (uma conexão por transação)
+            // AddTransient: resolve a dependência criando um novo item.
+            services.AddTransient
+            
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Todo.Domain.Api", Version = "v1" });
             });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
