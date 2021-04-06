@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Todo.Domain.Infra.Contexts;
 
 namespace Todo.Domain.Api
 {
@@ -24,7 +26,10 @@ namespace Todo.Domain.Api
             // AddSingleton: quando a aplicação é inicializada, o objeto que foi determinado será instanciado e ficará na memória sempre que a aplicação estiver ativa (pouco usado no .net)
             // AddScoped: ele faz uma espécie de 'Singleton', só que por requisição. Ou seja, ele coloca o objeto determinado na memória todas vez que for chamado. As próximas vezes que esse objeto for instanciado, ele buscará da memória, não criará um novo (uma conexão por transação)
             // AddTransient: resolve a dependência criando um novo item.
-            services.AddTransient
+            // AddDbContext faz o mesmo papel do AddScoped
+
+            services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
+            // services.AddDbContext<DataContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
             
 
             services.AddSwaggerGen(c =>
