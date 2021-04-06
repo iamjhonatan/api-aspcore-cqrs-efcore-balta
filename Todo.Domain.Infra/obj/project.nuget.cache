@@ -1,30 +1,39 @@
 {
   "version": 2,
-  "dgSpecHash": "VCwmAItmGhKhp+Tl5tatyXuDDWbn8+Dh/X/bdEiiU/DF5Bqkf+v4+t9HL+Mo/U1atfe2hq5SqwWBKomigVX5vg==",
-  "success": true,
+  "dgSpecHash": "cbY6TPrnIksm61zj1a0LmCneIDtJP4QgqjC1xbRqBIQHHIuVKFmEPDQoAbOps6OisYyPRPS2mvUcLSj65mMayA==",
+  "success": false,
   "projectFilePath": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\TodoAPPBalta\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jhona\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.1\\microsoft.entityframeworkcore.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.1\\microsoft.entityframeworkcore.abstractions.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.1\\microsoft.entityframeworkcore.analyzers.3.1.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.4\\microsoft.entityframeworkcore.5.0.4.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.4\\microsoft.entityframeworkcore.abstractions.5.0.4.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.4\\microsoft.entityframeworkcore.analyzers.5.0.4.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.design\\2.0.0\\microsoft.entityframeworkcore.design.2.0.0.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.1\\microsoft.entityframeworkcore.inmemory.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.1\\microsoft.extensions.caching.abstractions.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.1\\microsoft.extensions.caching.memory.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.1\\microsoft.extensions.configuration.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.1\\microsoft.extensions.configuration.abstractions.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.1\\microsoft.extensions.configuration.binder.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.1\\microsoft.extensions.dependencyinjection.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.1\\microsoft.extensions.dependencyinjection.abstractions.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.logging\\3.1.1\\microsoft.extensions.logging.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.1\\microsoft.extensions.logging.abstractions.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.options\\3.1.1\\microsoft.extensions.options.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.1\\microsoft.extensions.primitives.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\system.collections.immutable\\1.7.0\\system.collections.immutable.1.7.0.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0\\system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512"
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.4\\microsoft.entityframeworkcore.relational.5.0.4.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.4\\microsoft.entityframeworkcore.tools.5.0.4.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Downgrade de pacote detectado: Microsoft.EntityFrameworkCore.Design de 5.0.4 para 2.0.0. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n Todo.Domain.Infra -> Microsoft.EntityFrameworkCore.Tools 5.0.4 -> Microsoft.EntityFrameworkCore.Design (>= 5.0.4) \r\n Todo.Domain.Infra -> Microsoft.EntityFrameworkCore.Design (>= 2.0.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
