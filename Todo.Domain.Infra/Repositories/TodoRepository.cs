@@ -1,8 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Todo.Domain.Entities;
 using Todo.Domain.Infra.Contexts;
+using Todo.Domain.Queries;
 using Todo.Domain.Repositories;
 
 namespace Todo.Domain.Infra.Repositories
@@ -24,7 +26,11 @@ namespace Todo.Domain.Infra.Repositories
 
         public IEnumerable<TodoItem> GetAll(string user)
         {
-            throw new NotImplementedException();
+            //AsNoTracking: Desabilitando o proxy (versões dos dados em memória). Usar somente quando for retornar algo para tela, sem modificação.
+            return _context.Todos
+                .AsNoTracking()
+                .Where(TodoQueries.GetAll(user))
+                .OrderBy(x => x.Date);
         }
 
         public IEnumerable<TodoItem> GetAllDone(string user)
