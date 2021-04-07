@@ -8,8 +8,4 @@
     <PackageReference Include="flunt" Version="1.0.4" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Queries\" />
-  </ItemGroup>
-
 </Project>

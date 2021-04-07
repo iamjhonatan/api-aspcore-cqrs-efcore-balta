@@ -1,18 +1,25 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Todo.Domain.Entities;
+using Todo.Domain.Infra.Contexts;
 using Todo.Domain.Repositories;
 
 namespace Todo.Domain.Infra.Repositories
 {
     public class TodoRepository : ITodoRepository
     {
+        private readonly DataContext _context;
+
+        public TodoRepository(DataContext context)
+        {
+            _context = context;
+        }
+
         public void Create(TodoItem todo)
         {
-            throw new NotImplementedException();
+            _context.Todos.Add(todo); // adicionando na memória, mas não salvando
+            _context.SaveChanges(); // salvando no banco. as dependencias são gerenciadas pelo asp.netcore, que destrói a memória quando chega ao fim da execução
         }
 
         public IEnumerable<TodoItem> GetAll(string user)
@@ -42,7 +49,8 @@ namespace Todo.Domain.Infra.Repositories
 
         public void Update(TodoItem todo)
         {
-            throw new NotImplementedException();
+            _context.Entry(todo).State = EntityState.Modified; 
+            _context.SaveChanges();
         }
     }
 }
