@@ -1,17 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "cbY6TPrnIksm61zj1a0LmCneIDtJP4QgqjC1xbRqBIQHHIuVKFmEPDQoAbOps6OisYyPRPS2mvUcLSj65mMayA==",
-  "success": false,
+  "dgSpecHash": "F8evCVCM4OHsp7azbX6U3odHnDfGgEIN2aZOU0SP3tXP/k4kGk/91SglDhIAL6rryxMZE8vNMqvopVzkcFDYJw==",
+  "success": true,
   "projectFilePath": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\TodoAPPBalta\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jhona\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.4\\microsoft.entityframeworkcore.5.0.4.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.4\\microsoft.entityframeworkcore.abstractions.5.0.4.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.4\\microsoft.entityframeworkcore.analyzers.5.0.4.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.design\\2.0.0\\microsoft.entityframeworkcore.design.2.0.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.5\\microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.5\\microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.5\\microsoft.entityframeworkcore.analyzers.5.0.5.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.5\\microsoft.entityframeworkcore.design.5.0.5.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.1\\microsoft.entityframeworkcore.inmemory.3.1.1.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.4\\microsoft.entityframeworkcore.relational.5.0.4.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.4\\microsoft.entityframeworkcore.tools.5.0.4.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.5\\microsoft.entityframeworkcore.relational.5.0.5.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.5\\microsoft.entityframeworkcore.tools.5.0.5.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
@@ -25,15 +27,5 @@
     "C:\\Users\\jhona\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Downgrade de pacote detectado: Microsoft.EntityFrameworkCore.Design de 5.0.4 para 2.0.0. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n Todo.Domain.Infra -> Microsoft.EntityFrameworkCore.Tools 5.0.4 -> Microsoft.EntityFrameworkCore.Design (>= 5.0.4) \r\n Todo.Domain.Infra -> Microsoft.EntityFrameworkCore.Design (>= 2.0.0)",
-      "libraryId": "Microsoft.EntityFrameworkCore.Design",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }
