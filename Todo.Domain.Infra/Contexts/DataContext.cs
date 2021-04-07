@@ -7,7 +7,7 @@ namespace Todo.Domain.Infra.Contexts
     // Serve, de começo, para dizer quais tabelas referenciam as entidades e vice-versa
     public class DataContext : DbContext
     {
-        public DataContext(DbContextOptions <DataContext> options)
+        public DataContext(DbContextOptions<DataContext> options)
             : base(options)
         {
         }

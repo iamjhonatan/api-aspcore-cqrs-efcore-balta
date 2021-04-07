@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qfFucOE6gf18IeNFZO/ApLK79pqvcX31G4lpA+oh82nklIByp95uTsqbjUvruGcB9zq6QPZRR8sLtwwySSkWwA==",
+  "dgSpecHash": "FUGxd4pGwGq9mGSoRvuw2M8v9/ooH43KxcrI/rl2vWsftCcc7SfDOZWl0uGVRdjF8pGbMv0pF0TjlXtrKgk3kQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\TodoAPPBalta\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.5\\microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.5\\microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.5\\microsoft.entityframeworkcore.analyzers.5.0.5.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.1\\microsoft.entityframeworkcore.inmemory.3.1.1.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.5\\microsoft.entityframeworkcore.inmemory.5.0.5.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.5\\microsoft.entityframeworkcore.relational.5.0.5.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
