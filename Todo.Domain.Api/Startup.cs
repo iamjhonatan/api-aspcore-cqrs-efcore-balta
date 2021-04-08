@@ -31,8 +31,8 @@ namespace Todo.Domain.Api
             // AddTransient: resolve a dependência criando um novo item.
             // AddDbContext faz o mesmo papel do AddScoped
 
-            services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
-            // services.AddDbContext<DataContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
+            //services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
+            services.AddDbContext<DataContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
 
             services.AddTransient<ITodoRepository, TodoRepository>();
             services.AddTransient<TodoHandler, TodoHandler>();
